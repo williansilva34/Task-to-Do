@@ -1,14 +1,51 @@
-
 body{
 
-    height: 150vh;
-
-}
-
-section{
-
-    height: 200px;
-    width: 200px;
-    background-color: orange;
-
-}
+    background: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    text-align: justify;
+    
+    }
+    
+    
+    label{
+    
+    margin: 4px;
+    background-color: black;
+    color: white;
+    }
+    input{
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        margin: 1px;
+    }
+    button{
+        margin: 5px;
+        background: black;
+        color: white;
+        border-radius: 13px;
+        padding: 10px;
+        border: none;
+    }
+    
+    .course{
+    
+        background-color: purple;
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+        color: white;
+        padding: 4px;
+        border-radius: 5px;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    
+    }
+    .selec{
+        background-color: rgb(40, 56, 56);
+        color: white;
+    }
